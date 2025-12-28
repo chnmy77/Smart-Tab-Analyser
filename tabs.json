@@ -1,0 +1,58 @@
+[
+  {
+    "title": "DSA Notes",
+    "domain": "geeksforgeeks.org",
+    "last_accessed_days": 1,
+    "frequency": 6,
+    "category": "study"
+  },
+  {
+    "title": "Python Documentation",
+    "domain": "docs.python.org",
+    "last_accessed_days": 0,
+    "frequency": 8,
+    "category": "study"
+  },
+  {
+    "title": "GitHub Repository",
+    "domain": "github.com",
+    "last_accessed_days": 2,
+    "frequency": 7,
+    "category": "work"
+  },
+  {
+    "title": "Stack Overflow Question",
+    "domain": "stackoverflow.com",
+    "last_accessed_days": 4,
+    "frequency": 5,
+    "category": "work"
+  },
+  {
+    "title": "YouTube Video",
+    "domain": "youtube.com",
+    "last_accessed_days": 12,
+    "frequency": 1,
+    "category": "entertainment"
+  },
+  {
+    "title": "Online Course Lecture",
+    "domain": "coursera.org",
+    "last_accessed_days": 6,
+    "frequency": 3,
+    "category": "study"
+  },
+  {
+    "title": "News Article",
+    "domain": "news.com",
+    "last_accessed_days": 9,
+    "frequency": 2,
+    "category": "entertainment"
+  },
+  {
+    "title": "Random Blog Post",
+    "domain": "medium.com",
+    "last_accessed_days": 18,
+    "frequency": 1,
+    "category": "entertainment"
+  }
+]

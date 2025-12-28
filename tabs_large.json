@@ -1,0 +1,14 @@
+[
+  { "title": "DSA Notes", "domain": "geeksforgeeks.org", "last_accessed_days": 1, "frequency": 6, "category": "study" },
+  { "title": "Python Docs", "domain": "docs.python.org", "last_accessed_days": 0, "frequency": 10, "category": "study" },
+  { "title": "GitHub Repo", "domain": "github.com", "last_accessed_days": 2, "frequency": 8, "category": "work" },
+  { "title": "Stack Overflow", "domain": "stackoverflow.com", "last_accessed_days": 4, "frequency": 6, "category": "work" },
+  { "title": "LeetCode Problem", "domain": "leetcode.com", "last_accessed_days": 1, "frequency": 7, "category": "study" },
+  { "title": "System Design Blog", "domain": "medium.com", "last_accessed_days": 6, "frequency": 4, "category": "study" },
+  { "title": "YouTube Music", "domain": "youtube.com", "last_accessed_days": 10, "frequency": 2, "category": "entertainment" },
+  { "title": "Netflix Show", "domain": "netflix.com", "last_accessed_days": 15, "frequency": 1, "category": "entertainment" },
+  { "title": "Tech News", "domain": "theverge.com", "last_accessed_days": 3, "frequency": 5, "category": "work" },
+  { "title": "College Portal", "domain": "college.edu", "last_accessed_days": 0, "frequency": 9, "category": "work" },
+  { "title": "Online Course", "domain": "coursera.org", "last_accessed_days": 5, "frequency": 4, "category": "study" },
+  { "title": "Random Blog", "domain": "blogspot.com", "last_accessed_days": 20, "frequency": 1, "category": "entertainment" }
+]

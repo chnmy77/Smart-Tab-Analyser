@@ -1,0 +1,22 @@
+[
+  { "title": "DSA Sheet", "domain": "geeksforgeeks.org", "last_accessed_days": 0, "frequency": 15, "category": "study" },
+  { "title": "Algorithms Video", "domain": "youtube.com", "last_accessed_days": 1, "frequency": 12, "category": "study" },
+  { "title": "GitHub Issue", "domain": "github.com", "last_accessed_days": 2, "frequency": 10, "category": "work" },
+  { "title": "Project Repo", "domain": "github.com", "last_accessed_days": 1, "frequency": 14, "category": "work" },
+  { "title": "StackOverflow Answer", "domain": "stackoverflow.com", "last_accessed_days": 3, "frequency": 9, "category": "work" },
+  { "title": "College LMS", "domain": "lms.edu", "last_accessed_days": 0, "frequency": 11, "category": "study" },
+  { "title": "Documentation", "domain": "readthedocs.io", "last_accessed_days": 4, "frequency": 6, "category": "study" },
+  { "title": "Medium Article", "domain": "medium.com", "last_accessed_days": 7, "frequency": 5, "category": "study" },
+  { "title": "News Site", "domain": "news.com", "last_accessed_days": 12, "frequency": 2, "category": "entertainment" },
+  { "title": "Reddit Thread", "domain": "reddit.com", "last_accessed_days": 8, "frequency": 3, "category": "entertainment" },
+  { "title": "Twitter Feed", "domain": "twitter.com", "last_accessed_days": 6, "frequency": 4, "category": "entertainment" },
+  { "title": "Music Playlist", "domain": "spotify.com", "last_accessed_days": 9, "frequency": 2, "category": "entertainment" },
+  { "title": "Online Judge", "domain": "codeforces.com", "last_accessed_days": 1, "frequency": 8, "category": "study" },
+  { "title": "Contest Page", "domain": "codechef.com", "last_accessed_days": 2, "frequency": 7, "category": "study" },
+  { "title": "Internship Portal", "domain": "internshala.com", "last_accessed_days": 5, "frequency": 4, "category": "work" },
+  { "title": "Job Listings", "domain": "linkedin.com", "last_accessed_days": 3, "frequency": 6, "category": "work" },
+  { "title": "Design Blog", "domain": "uxdesign.cc", "last_accessed_days": 14, "frequency": 1, "category": "study" },
+  { "title": "Old Notes", "domain": "drive.google.com", "last_accessed_days": 25, "frequency": 1, "category": "study" },
+  { "title": "Random Video", "domain": "vimeo.com", "last_accessed_days": 18, "frequency": 1, "category": "entertainment" },
+  { "title": "Archived Article", "domain": "archive.org", "last_accessed_days": 40, "frequency": 0, "category": "study" }
+]
