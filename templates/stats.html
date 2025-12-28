@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tab Statistics</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Tab Statistics</h1>
+    <nav>
+        <a href="/">Home</a> | <a href="/stats">Statistics</a>
+    </nav>
+
+    <h2>Most Frequently Used Tabs</h2>
+    <div class="card">
+        <ul>
+            {% for tab in top_tabs %}
+            <li><strong>{{ tab.title }}</strong> ({{ tab.frequency }} times)</li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <h2>Category Distribution</h2>
+    <div class="card">
+        <ul>
+            {% for category, count in category_distribution.items() %}
+            <li>{{ category }}: {{ count }} tabs</li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>

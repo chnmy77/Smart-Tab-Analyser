@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Tab Management – Usage Analyzer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<h1>Smart Tab Management – Usage Analyzer</h1>
+
+<nav>
+    <a href="/">Home</a> | <a href="/stats">Statistics</a>
+</nav>
+
+<p>
+This prototype analyzes browser tab usage data and provides rule-based,
+explainable recommendations to help users decide which tabs to keep,
+review, or archive.
+</p>
+
+<h2>📑 Tab Analysis</h2>
+
+<table>
+    <tr>
+        <th>Title</th>
+        <th>Domain</th>
+        <th>Category</th>
+        <th>Status</th>
+        <th>Recency</th>
+        <th>Usage</th>
+        <th>Priority Score</th>
+        <th>Recommendation</th>
+        <th>Reason</th>
+    </tr>
+
+    {% for tab in tabs %}
+    <tr>
+        <td>{{ tab.title }}</td>
+        <td>{{ tab.domain }}</td>
+        <td>{{ tab.category }}</td>
+        <td>{{ tab.status }}</td>
+        <td>{{ tab.recency_label }}</td>
+        <td>{{ tab.usage_intensity }}</td>
+        <td>{{ tab.priority_score }}</td>
+        <td class="{{ tab.recommendation | lower }}">
+            {{ tab.recommendation }}
+        </td>
+        <td>{{ tab.reason }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+</body>
+</html>
